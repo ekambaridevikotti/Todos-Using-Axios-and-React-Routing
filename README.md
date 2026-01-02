@@ -12,15 +12,25 @@ Axios logic is separated from UI components to maintain clean architecture.
 
 ## 📂 Folder Structure
 src/
+
  ├── api/
+
  │    ├── axiosInstance.js
+ 
  │    └── todoService.js
+ 
  ├── pages/
+ 
  │    ├── TodoList.jsx
+ 
  │    └── TodoDetails.jsx
+ 
  ├── App.jsx
+ 
  ├── index.js
+ 
  └── styles.css
+ 
 
 ## 🔗 Routes
 - `/` → Displays all todos
